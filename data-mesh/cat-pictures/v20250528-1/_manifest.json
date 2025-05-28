@@ -1,0 +1,59 @@
+{
+    "name": "cat-pictures",
+    "version": "v20250528-1",
+    "last_updated_at": "2025-05-28T13:18:00Z",
+    "previous_version": "v20240404-1",
+    "contains_pii": false,
+    "change_migration": {
+        "properties_removed": [
+            "cat pct"
+        ],
+        "properties_added": [
+            "cat coolness",
+            "cat meow strength"
+        ]
+    },
+    "columns": [
+        {
+            "name": "id",
+            "description": "Identifying number for this record.",
+            "type": "integer"
+        },
+        {
+            "name": "name",
+            "description": "The title of the file.",
+            "type": "string",
+            "length": 200
+        },
+        {
+            "name": "file name",
+            "description": "The file system name of the file.",
+            "type": "string",
+            "length": 500
+        },
+        {
+            "name": "file size kb",
+            "description": "The file size in kilobytes.",
+            "type": "integer"
+        },
+        {
+            "name": "cat coolness",
+            "description": "A coolness factor that categorizes cats by subjective coolness.",
+            "type": "string",
+            "length": "50",
+            "allowed_values": [
+                "cool",
+                "skrongly",
+                "just a little guy",
+                "very cool"
+            ]
+        },
+        {
+            "name": "cat meow strength",
+            "description": "The potential strength of the given cat's meow, measured in Skoville-Furlong scale.",
+            "type": "integer",
+            "min_value": 1,
+            "max_value": 7
+        }
+    ]
+}

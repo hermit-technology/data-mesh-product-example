@@ -1,0 +1,14 @@
+{
+    "name": "Data Index - department of miscellany",
+    "description": "A top level catalogue of all data products produced by the department of miscellany for domain xyz.",
+    "owner": "Jen Realpersonsen",
+    "contact": "@jrealp",
+    "data_products": [
+        {
+            "name": "cat-pictures",
+            "description": "A collection of cool cat pictures I've found on the internet.",
+            "current_version": "v20250528-1",
+            "last_updated_at": "2025-05-28T13:18:00Z"
+        }
+    ]
+}

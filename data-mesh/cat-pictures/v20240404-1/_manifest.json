@@ -1,0 +1,35 @@
+{
+    "name": "cat-pictures",
+    "version": "v20240404-1",
+    "last_updated_at": "2025-05-28T00:00:00Z",
+    "contains_pii": false,
+    "columns": [
+        {
+            "name": "id",
+            "description": "Identifying number for this record.",
+            "type": "integer"
+        },
+        {
+            "name": "name",
+            "description": "The title of the file.",
+            "type": "string",
+            "length": 200
+        },
+        {
+            "name": "file name",
+            "description": "The file system name of the file.",
+            "type": "string",
+            "length": 500
+        },
+        {
+            "name": "file size kb",
+            "description": "The file size in kilobytes.",
+            "type": "integer"
+        },
+        {
+            "name": "cat pct",
+            "description": "The percentage of cat content within the picture.",
+            "type": "integer"
+        }
+    ]
+}
